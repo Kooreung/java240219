@@ -12,5 +12,17 @@ public class C29_formatString {
 
         // FMT Template Processor 21버전부터
         System.out.println(FMT."%6d\{1} | %-10s\{name} | %10s\{job}");
+
+        int v1 = 1;
+        System.out.println("v1 = " + v1);
+        if (true) {
+            int v2 = 2;
+            if (true) {
+                int v3 = 3;
+                System.out.println("v1 = " + v1);
+                System.out.println("v2 = " + v2);
+                System.out.println("v3 = " + v3);
+            }
+        }
     }
 }
