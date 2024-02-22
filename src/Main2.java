@@ -1,5 +1,7 @@
 public class Main2 {
     public static void main(String[] args) {
-        System.out.println("새 파일에서 인사");
+        int value = 356;
+
+        System.out.println((value/100) * 100);
     }
 }

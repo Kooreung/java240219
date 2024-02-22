@@ -16,7 +16,7 @@ public class C20TypeConversion {
         long j = i;
 
         j = 400;
-        i = (short)j;
+        i = (short) j;
         System.out.println(j);
 
         // 정수형을 실수형에 할당 가능

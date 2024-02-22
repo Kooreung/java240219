@@ -2,7 +2,7 @@ package c02.lecture.p02type;
 
 import static java.util.FormatProcessor.FMT;
 
-public class C29_formatString {
+public class C29formatString {
     public static void main(String[] args) {
         String name = "홍길동";
         String job = "도적";

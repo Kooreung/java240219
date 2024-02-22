@@ -1,10 +1,12 @@
 public class Main3 {
     public static void main(String[] args) {
-        System.out.println("메인1");
-        System.out.println("메인2");
-        System.out.println("메인3");
-        System.out.println("메인4");
-        System.out.println("메인5");
-        System.out.println("메인6");
+        int pencils = 534;
+        int studuents = 30;
+
+        int pencilsPerStudent = pencils/studuents;
+        System.out.println("pencilsPerStudent = " + pencilsPerStudent);
+
+        int pencilsLeft = pencils%studuents;
+        System.out.println("pencilsLeft = " + pencilsLeft);
     }
 }
