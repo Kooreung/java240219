@@ -4,7 +4,7 @@ public class Main4 {
         int lengthBottom = 10;
         int height = 7;
 
-        double area = ;
+        double area = (lengthBottom+lengthTop) * height / 2.0;
         System.out.println("area = " + area);
 
     }
