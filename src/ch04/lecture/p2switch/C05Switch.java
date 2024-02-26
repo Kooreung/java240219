@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class C05Switch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("지역을 검색하세요 : ");
         String city = String.format(scanner.nextLine());
 
