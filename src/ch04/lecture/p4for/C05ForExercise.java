@@ -74,9 +74,11 @@ public class C05ForExercise {
 
         System.out.println("-------------");
 
+        int k = 0;
         for (int i = 0; i < 5; ++i) {
             for (int j = 0; j <= i; ++j) {
-                System.out.print(i+i);
+                System.out.print(k%10);
+                k++;
             }
             System.out.println();
         }
