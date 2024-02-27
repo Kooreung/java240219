@@ -11,5 +11,12 @@ public class Exercise07 {
             }
         }
         System.out.println("max = " + max);
+
+        for (int j : array) {
+            if (j > max) {
+                max = j;
+            }
+        }
+        System.out.println("max = " + max);
     }
 }
