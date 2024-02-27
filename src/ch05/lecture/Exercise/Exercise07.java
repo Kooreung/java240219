@@ -1,6 +1,6 @@
-package ch05.lecture.sec06;
+package ch05.lecture.Exercise;
 
-public class C06 {
+public class Exercise07 {
     public static void main(String[] args) {
         int[] array = {1, 5, 3, 8, 2};
         int max = array[0];
