@@ -1,4 +1,4 @@
-package ch05.lecture.sec03;
+package ch05.sec03;
 
 public class RefereneVariableCompareExample {
     public static void main(String[] args) {
