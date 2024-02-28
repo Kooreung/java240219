@@ -15,16 +15,18 @@ public class C17Matrix {
         System.out.println(mat1[2].length);
 
         mat1[1][0] = 5; // 2번째 행의 1번째 열의 값을 5로 설정
+        mat1[2] = new int []{3,4,2};
 
         for (int i = 0; i < mat1.length; i++) {
             for (int j = 0; j < mat1[i].length; j++) {
-                System.out.print("[" + mat1[i][j] + "]");
-                if (j != 0) {
+                if (j == 0) {
                     System.out.println("");
                 }
+                System.out.print("[" + mat1[i][j] + "]");
             }
         } // 전체 탐색은 중첩된 for 을 사용하면 좋다.
 
+        System.out.println("");
         System.out.println(Arrays.toString(mat1[1]));
     }
 }
