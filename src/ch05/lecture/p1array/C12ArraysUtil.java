@@ -9,6 +9,9 @@ public class C12ArraysUtil {
         int[] arr1 = {9, 1, 2, 5, 3, 6};
         System.out.println(arr1);
         System.out.println(Arrays.toString(arr1));
+        String arrTest = Arrays.toString(arr1);
+        System.out.println("arrTest = " + arrTest);
+        System.out.println(arrTest.length());
 
         // sort : 배열을 오름차순으로 정렬해주는 메소드
         Arrays.sort(arr1);
