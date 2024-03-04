@@ -18,5 +18,4 @@ public class C02Field {
         System.out.print("2번 차량 : " + car2.color + " | ");
         System.out.println(car2.weight);
     }
-
 }
