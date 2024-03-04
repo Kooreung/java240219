@@ -20,7 +20,7 @@ public class C03Field {
     }
 }
 
-public class C03Car {
+class C03Car {
     String color = "black";
     int price = 3000;
 }
