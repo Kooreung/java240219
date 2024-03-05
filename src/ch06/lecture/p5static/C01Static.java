@@ -10,14 +10,17 @@ public class C01Static {
 
         // 인스턴스를 통해서 static 멤버 (필드, 메소드) 의
         // 값을 설정하는 건 가능하나, 비권장
-        obj01.location = "seoul"; // = 비권장 형 (인스턴스를 통했기 때문)
+        obj01.location = "seoul"; // = 비권장형 (인스턴스를 통했기 때문)
         C01MyClass.location = "daejeon"; // = 권장형 (클래스 변수이기 때문)
-
 
         System.out.println(obj01.name);
         System.out.println(obj02.name);
         System.out.println(obj01.location);
         System.out.println(obj02.location);
+
+        // 마찬가지로 static 메소드는 클래스로 접근해서 실행시키는 것 권장
+        obj01.method2(); // = 비권장형
+        C01MyClass.method2(); // = 권장형
     }
 }
 
@@ -34,6 +37,11 @@ class C01MyClass {
 
     // (인스턴스) 메소드
     void method1() {
+
+    }
+
+    // static 메소드 (class 메소드)
+    static void method2() {
 
     }
 }
