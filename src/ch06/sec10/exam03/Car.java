@@ -1,6 +1,4 @@
-package ch06.sec10.exam01.exam03;
-
-import ch06.sec10.exam01.Calculator;
+package ch06.sec10.exam03;
 
 public class Car {
     int speed;
