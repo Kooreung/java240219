@@ -9,12 +9,14 @@ public class C06ReadOnly {
         System.out.println(obj1.getAge());
 
         C06MyClass2 obj2 = new C06MyClass2("박덕배", 45);
+        C06MyClass2 obj4 = new C06MyClass2("김덕배", 45);
         System.out.println(obj2.name());
         System.out.println(obj2.age());
 
         System.out.println(obj1.hashCode());
         System.out.println(obj3.hashCode());
         System.out.println(obj2.hashCode());
+        System.out.println(obj4.hashCode());
     }
 }
 //record : 14버전 이후에 등장
