@@ -1,4 +1,4 @@
-package ch07.exam01;
+package ch07.sec07.exam01;
 
 class A {
 
