@@ -1,4 +1,4 @@
-package ch02.ch12.sec03.exam04;
+package ch12.sec03.exam04;
 
 public class RecordExample {
     public static void main(String[] args) {
