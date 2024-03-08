@@ -2,18 +2,18 @@ package ch07.lecture.p3casting;
 
 public class C01Casting {
     public static void main(String[] args) {
-        C01Animal animal1 = new C02Tiger();
+        C01Animal animal1 = new C01Tiger();
         animal1.breathe();
 
         // 강제 형변환 (casting)
         // animal1 은 C01Animal 타입이라서
-        C02Tiger tiger = (C02Tiger) animal1;
+        C01Tiger tiger = (C01Tiger) animal1;
         tiger.roar();
 
-        C01Animal animal2 = new C02Cat();
+        C01Animal animal2 = new C01Cat();
         animal2.breathe();
 
-        C02Cat cat = (C02Cat) animal2;
+        C01Cat cat = (C01Cat) animal2;
         cat.meow();
 
         System.out.println(System.identityHashCode(animal1));
