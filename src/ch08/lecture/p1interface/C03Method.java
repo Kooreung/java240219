@@ -17,37 +17,37 @@ interface C03Pet {
     // public, abstract 생략 가능
     }
 
-class C03Animal {
+abstract class C03Animal {
+    abstract public void breathe();
+}
+
+class C03Cat extends C03Animal implements C03Pet {
+    @Override
     public void breathe() {
-        System.out.println("숨을 쉽니다.");
+        System.out.println("고양이가 폐로 숨쉼");
+    }
+
+    @Override
+    public void feed() {
+        System.out.println("고양이에게 닭가슴살을 줍니다.");
     }
 }
 
-class C03Cat extends C03Animal implements C03Pet{
+class C03Tiger extends C03Animal {
     @Override
     public void breathe() {
-        super.breathe();
+        System.out.println("호랑이가 폐로 숨쉼");
     }
-    @Override
-    public void feed() {
-        System.out.println("고양이 밥 주기");
-    }
-};
+}
 
-class C03Tiger extends C03Animal{
+class C03GoldFish extends C03Animal implements C03Pet {
     @Override
     public void breathe() {
-        super.breathe();
+        System.out.println("금붕어가 아가미로 호흡함");
     }
-};
-class C03GoldFish extends C03Animal implements C03Pet{
 
     @Override
-    public void breathe() {
-        super.breathe();
-    }
-    @Override
     public void feed() {
-        System.out.println("밥 주기");
+        System.out.println("금붕어에게 새우를 먹입니다.");
     }
-};
+}
