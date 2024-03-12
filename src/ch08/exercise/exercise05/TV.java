@@ -1,4 +1,4 @@
-package ch08.exercise.p5;
+package ch08.exercise.exercise05;
 
 public class TV implements Remocon{
     @Override

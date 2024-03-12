@@ -1,4 +1,4 @@
-package ch08.exercise.p6;
+package ch08.exercise.exercise06;
 
 public class Cat implements Soundable{
     @Override

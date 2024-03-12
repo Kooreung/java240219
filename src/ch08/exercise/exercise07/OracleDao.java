@@ -1,7 +1,7 @@
-package ch08.exercise.p7;
+package ch08.exercise.exercise07;
 
-public class MySqlDao implements DataAccessObject{
-    String DbName = "MySql DB";
+public class OracleDao implements DataAccessObject{
+    String DbName = "oracle DB";
 
     @Override
     public void select() {

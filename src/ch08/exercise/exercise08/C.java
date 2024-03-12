@@ -1,4 +1,4 @@
-package ch08.exercise.p8;
+package ch08.exercise.exercise08;
 
 public class C implements A{
     @Override
