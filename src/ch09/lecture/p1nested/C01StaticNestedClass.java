@@ -3,7 +3,7 @@ package ch09.lecture.p1nested;
 public class C01StaticNestedClass {
     public static void main(String[] args) {
         // 하단의 중첩 클래스 호출
-        C01MyClass.C01NestedClass obj1 = new C01MyClass.C01NestedClass();
+        ch09.lecture.p1nested.C01MyClass.C01NestedClass obj1 = new ch09.lecture.p1nested.C01MyClass.C01NestedClass();
 
     }
 }
