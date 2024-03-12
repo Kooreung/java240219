@@ -18,6 +18,7 @@ class C01MyClass {
     // Field, Constructor, Method
     void method1() {
         C01NestedClass obj1 = new C01NestedClass();
-        // 중첩 클래스를 메소드로 호출
+        // 같은 클래스 내에 있으니
+        // 중첩 클래스를 메소드로 호출 가능
     }
 }
