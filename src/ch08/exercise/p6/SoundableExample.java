@@ -1,4 +1,4 @@
-package ch08.exercise.exercise06;
+package ch08.exercise.p6;
 
 public class SoundableExample {
     public static void printSound(Soundable soundable) {

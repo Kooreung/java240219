@@ -1,4 +1,4 @@
-package ch08.exercise.exercise07;
+package ch08.exercise.p7;
 
 public class DaoExample {
     public static void dbWork(DataAccessObject dao) {
