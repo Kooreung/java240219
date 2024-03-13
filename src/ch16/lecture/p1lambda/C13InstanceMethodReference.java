@@ -6,13 +6,14 @@ import java.util.List;
 public class C13InstanceMethodReference {
     public static void main(String[] args) {
         C13OtherClass obj = new C13OtherClass();
-        C11MyInterface lambda1 = (i, j) -> obj.someMethod(i , j);
-        C11MyInterface lambda2 = obj::someMethod;
+        C13MyInterface lambda1 = (i, j) -> obj.someMethod(i , j);
+        C13MyInterface lambda2 = obj::someMethod;
 
+        List.of(9,10,3,23,7)
+                .forEach(x -> System.out.println(x));
 
-        List.of(9,10,3,23,7).forEach(x -> System.out.println(x));
-
-        List.of(9,10,3,23,7).forEach(System.out::println);
+        List.of(9,10,3,23,7)
+                .forEach(System.out::println);
     }
 }
 
