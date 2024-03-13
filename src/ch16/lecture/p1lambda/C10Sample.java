@@ -12,7 +12,5 @@ public class C10Sample {
         System.out.println(Arrays.toString(names));
         Arrays.sort(names, (a, b) -> a.charAt(a.length() - 1) - b.charAt(b.length()-1));
         System.out.println(Arrays.toString(names));
-
-
     }
 }
