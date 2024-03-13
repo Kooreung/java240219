@@ -11,6 +11,7 @@ public class C08Lambda {
     }
 }
 
+// 3. 3. 매개변수가 없고 Return 이 없는 추상 메소드
 @FunctionalInterface
 interface C08MyInterface {
     void method();
