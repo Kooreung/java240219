@@ -1,4 +1,4 @@
-package ch13;
+package ch13.lecture.p1generic;
 
 public class C02GenericType {
     public static void main(String[] args) {
