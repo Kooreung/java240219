@@ -35,8 +35,9 @@ public class ArrayListExample {
         list.remove(2);
 
         for (Board b : list) {
-            System.out.println(b.getSubject() + "\t" + b.getContent() + "\t" + b.getWriter());
+            System.out.println(b);
         }
+        System.out.println();
 
         // 전체 탐색 (Lambda)
         list.forEach(System.out::println);
