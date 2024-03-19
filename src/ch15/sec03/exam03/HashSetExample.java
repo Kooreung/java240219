@@ -26,6 +26,7 @@ public class HashSetExample {
         }
         System.out.println();
 
+
         set.remove("JDBC");
 
         for(String element : set) {
