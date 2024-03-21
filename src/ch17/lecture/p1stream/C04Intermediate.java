@@ -5,8 +5,8 @@ import java.util.stream.Stream;
 
 public class C04Intermediate {
     public static void main(String[] args) {
-
-        // filter, map, distinct, sorted, peek , limit,
+        // 중간 연산 Method
+        // filter, map, distinct, sorted, peek , limit, skip
 
         // 중간 연산은 최종 연산이 있을 때만 실행
         List<Integer> list = List.of(3, 5, 9, 8, 1, 6, 4);
