@@ -2,7 +2,7 @@ package ch17.lecture.p1stream;
 
 import java.util.List;
 
-public class Distinct {
+public class C07Distinct {
     public static void main(String[] args) {
         List<Integer> list = List.of(6, 2, 3, 6, 0, 3, 0, 1);
 
