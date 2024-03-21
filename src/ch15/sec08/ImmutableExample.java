@@ -27,9 +27,9 @@ public class ImmutableExample {
         Set<String> immutableset2 = Set.copyOf(set);
 
         Map<Integer, String> map = new HashMap<>();
-        map.add(1, "A");
-        map.add(2, "B");
-        map.add(3, "C");
+        map.put(1, "A");
+        map.put(2, "B");
+        map.put(3, "C");
         Map<Integer, String> immutablemap2 = Map.copyOf(map);
 
         String[]arr = {"A", "B", "C"};
