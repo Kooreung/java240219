@@ -8,6 +8,8 @@ import java.util.OptionalDouble;
 public class OptionalExample {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
+        list.add(3);
+        list.add(5);
 
         OptionalDouble optional = list.stream()
                 .mapToInt(Integer::intValue)
@@ -27,6 +29,6 @@ public class OptionalExample {
         list.stream()
                 .mapToInt(Integer::intValue)
                 .average()
-                .ifPresent(a -> System.out.println("방법3 평균 : a"));
+                .ifPresent(a -> System.out.println("방법3 평균 : " + a));
     }
 }
