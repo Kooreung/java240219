@@ -16,9 +16,7 @@ public class Example {
 
         List<Member> developers = list.stream()
                 .filter(m -> m.getJob().equals("개발자"))
-                .collect(() -> new ArrayList<>()
-                , (c, e) -> c.add(e)
-                , (a, b) -> {});
+                .collect(Collectors.toList());
 
         developers.stream()
                 .forEach(m -> System.out.println(m.getName()));
