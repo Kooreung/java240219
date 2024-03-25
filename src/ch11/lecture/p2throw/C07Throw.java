@@ -7,7 +7,6 @@ public class C07Throw {
         method1();
     }
 
-
     public static void method1() throws ClassNotFoundException, SQLException {
         boolean b1 = true;
         boolean b2 = true;
