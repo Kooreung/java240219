@@ -12,10 +12,10 @@ public class C04BufferedOutputStream {
         // 버퍼 생성
         BufferedOutputStream bos = new BufferedOutputStream(os);
 
-        byte[] data = new byte[1024];
+        byte[] data = new byte[512];
 
         long start = System.currentTimeMillis();
-        for (int i = 0; i < 1024 * 1024; i++) {
+        for (int i = 0; i < 1024 * 1024 * 2; i++) {
             bos.write(data);
         }
         bos.flush();
