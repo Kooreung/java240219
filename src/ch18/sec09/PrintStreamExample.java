@@ -1,4 +1,4 @@
-package ch18.lecture.sec09;
+package ch18.sec09;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
