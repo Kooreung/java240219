@@ -11,20 +11,18 @@ public class C08Keyboard {
         InputStreamReader isr = new InputStreamReader(keyboard);
         BufferedReader br = new BufferedReader(isr);
 
-        String line;
         while (true) {
-            System.out.println("입력>");
-            line = br.readLine();
+            System.out.print("입력>");
+            String line = br.readLine();
 
-            if (line == null) {
+            if (line.equals("exit")) {
                 break;
             }
-
+            System.out.println("line = " + line);
         }
 
         br.close();
 
-        System.out.println("line = " + line);
 
     }
 }
