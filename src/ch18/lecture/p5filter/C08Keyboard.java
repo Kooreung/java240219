@@ -22,7 +22,5 @@ public class C08Keyboard {
         }
 
         br.close();
-
-
     }
 }

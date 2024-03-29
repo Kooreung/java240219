@@ -7,6 +7,7 @@ import java.net.SocketAddress;
 
 public class C08HttpServer {
     public static void main(String[] args) throws IOException {
+        // 응답 메시지 보내기
         ServerSocket serverSocket = new ServerSocket(9000);
 
         while (true) {
@@ -23,7 +24,7 @@ public class C08HttpServer {
                         SocketAddress client = socket.getRemoteSocketAddress();
                         String clientAddress = client.toString();
 
-                        try (os; osw; bw; pw;) {
+                        try (os; osw; bw; pw) {
                             String body = """
                                     <html>
                                         <head>

@@ -11,7 +11,7 @@ public class C10PrintWriter {
         PrintWriter pw = new PrintWriter(fw);
 
         pw.print("hello world");
-        pw.print("💕");
+        pw.print("😊");
         pw.println();
         pw.println("점심");
         pw.println("메뉴");
