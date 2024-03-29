@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class C02Computer2 {
     public static void main(String[] args) throws IOException {
-        Socket socket = new Socket("172.30.1.52", 9700);
+        Socket socket = new Socket("172.30.1.17", 9000);
 
         try (socket) {
             OutputStream os = socket.getOutputStream();
