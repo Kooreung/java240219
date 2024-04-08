@@ -26,8 +26,6 @@ public class C02Enum {
 
         s.printDesciption();
     }
-
-
 }
 
 enum Season {
