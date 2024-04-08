@@ -17,7 +17,7 @@ public class C01Reflection {
         System.out.println(class2 == class3); // true, 같은 객체
 
         Field[] fields = class1.getDeclaredFields();
-        Constructor<?>[] constructors = class1.getDeclaredConstructors();
+        Constructor[] constructors = class1.getDeclaredConstructors();
         Method[] methods = class1.getDeclaredMethods();
 
         System.out.println("필드 이름");
